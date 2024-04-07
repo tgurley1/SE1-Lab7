@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="practice2.css">
+    <script src="practicescript.js" type="text/javascript"></script>
+    <title>Practice problem 2</title>
+</head>
+<body>
+    <div id="container">
+        <div id="paragraph">
+            <p>
+                'So through endless twilights I dreamed and waited, though I knew not what I waited for. 
+                Then in the shadowy solitude my longing for light grew so frantic that I could rest no more, 
+                and I lifted entreating hands to the single black ruined tower that reached above the forest
+                into the unknown outer sky. And at last I resolved to scale that tower, fall though I might; 
+                since it were better to glimpse the sky and perish, than to live without ever beholding day.'
+            </p>
+        </div>
+        <div id="rbg_selector">
+            <form  name="color_R">
+                <label for="color R id">R:</label>
+                <input type="text" id="color_R">
+            </form>
+            <form  name="color_G">
+                <label for="color G id">G:</label>
+                <input type="text" id="color_G">
+            </form>
+            <form  name="color_B">
+                <label for="color B id">B:</label>
+                <input type="text" id="color_B">
+            </form>
+            <button type="button" onclick="changeTextColor()">Change Color!</button>
+        </div>
+        <div id="bw_control">
+            Border Width: 
+            <span id="width-field">
+                <button type="button" onclick="changeBorderWidthUp()">+</button>
+                <button type="button" onclick="changeBorderWidthDown()">-</button>
+            </span>
+        </div>
+    </div>
+</body>
+</html>

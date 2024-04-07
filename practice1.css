@@ -1,0 +1,27 @@
+body {
+    background-color: burlywood;
+}
+#container {
+    color: darkslategrey;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+}
+
+h1 {
+    color: black;
+    font-size: larger;
+}
+
+h2 {
+    color: darkslategray;
+    font-size: large;
+}
+
+#profile_img {
+    height: 30%;
+    aspect-ratio: 3 / 4;
+}

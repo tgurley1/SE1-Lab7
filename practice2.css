@@ -1,0 +1,40 @@
+#container {
+    display: grid;
+    grid-template-columns: 50% auto auto;
+    position: absolute;
+    top: 50%;
+    justify-content: space-between;
+    margin-right: 10%;
+    margin-left: 5%;
+    
+}
+
+#paragraph {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 5px;
+    text-align: center;
+    border-spacing: 5px;
+    padding: 5px;
+    width: inherit;
+    background-color: beige;
+}
+
+#text_entry {
+    border-radius: 5px;
+    border-color: black;
+    border-width: 2px;
+    background-color: whitesmoke;
+}
+
+#rbg_selector {
+    align-self: center;
+    display: grid;
+    grid-template-columns: auto;
+    align-content: center;
+}
+
+#bw_control {
+    align-self: center;
+}

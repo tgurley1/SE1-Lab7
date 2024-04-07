@@ -1,0 +1,20 @@
+#container {
+    border: 5px solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+}
+
+#form {
+    margin-bottom: 2%;
+}
+
+#verify-button {
+    justify-self: right;
+}
+
